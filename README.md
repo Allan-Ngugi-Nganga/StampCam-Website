@@ -19,7 +19,11 @@ JavaScript, so it renders exactly as served.
 
 ```
 .
-├── index.html          # Single page site
+├── index.html          # Main landing page
+├── privacy.html        # Privacy policy (App Store required)
+├── support.html        # Support page (App Store required)
+├── marketing.html      # Marketing overview (App Store marketing URL)
+├── terms.html          # Terms of use and copyright
 ├── assets/
 │   ├── styles.css      # Theme, layout, animations
 │   ├── app.js          # Scroll reveal, nav, camera mode tabs
