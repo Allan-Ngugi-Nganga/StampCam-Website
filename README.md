@@ -43,15 +43,6 @@ spacing and hairlines: no gradients, no glass, no decorative shapes, one
 restrained accent. Type is the system font stack, so iPhones render in SF Pro.
 Colour and spacing tokens live in the `:root` block of `assets/styles.css`.
 
-## Deploying
-
-The site publishes with GitHub Pages from `main`, folder `/ (root)`. The
-`.nojekyll` file keeps Pages from running the folder through Jekyll.
-
-1. Push to `main`.
-2. Settings, then Pages. Source: Deploy from a branch, `main`, `/ (root)`.
-3. Save.
-
 ## Contact
 
 maverick.develops@gmail.com
