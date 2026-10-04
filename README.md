@@ -52,22 +52,6 @@ The site publishes with GitHub Pages from `main`, folder `/ (root)`. The
 2. Settings, then Pages. Source: Deploy from a branch, `main`, `/ (root)`.
 3. Save.
 
-## Configuration
-
-Values to set for production:
-
-1. **App Store URL.** In `assets/app.js`, `STORE_URL` is set to
-   `https://apps.apple.com/app/id6818682653`. Every element marked `data-store`
-   updates automatically. The link resolves once Apple approves the app.
-2. **App Store ID.** `index.html` sets
-   `<meta name="apple-itunes-app" content="app-id=6818682653">`.
-3. **Canonical domain.** Currently the GitHub Pages URL. If a custom domain is
-   added, replace it in every HTML file, `sitemap.xml`, `llms.txt` and
-   `robots.txt`.
-4. **Analytics.** Cookieless, via Cloudflare Web Analytics. Paste your beacon
-   token into `ANALYTICS_ATTRS` in `assets/app.js`. Until the token is replaced
-   the beacon is not injected, so nothing broken ships.
-
 ## Contact
 
 maverick.develops@gmail.com
