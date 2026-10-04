@@ -21,13 +21,67 @@
   <url>
     <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/privacy.html</loc>
     <lastmod>2026-10-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/terms.html</loc>
     <lastmod>2026-10-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/index.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-timestamp-photo-insurance-claim.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-prove-when-and-where-photo-was-taken.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/construction-site-photo-documentation.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/timestamp-camera-settings-real-estate.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/contractors.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/insurance.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/real-estate.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/property-managers.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

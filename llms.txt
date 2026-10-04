@@ -12,8 +12,8 @@
 - Price: $19.99 one-time purchase. No subscription, no in-app purchases.
 - Category: Business / photo and video documentation.
 - Privacy: fully on-device. No backend, no account, no analytics, no ad SDKs.
-- Positioning: field documentation tool for contractors, property managers,
-  insurance adjusters, utility and telecom crews, and delivery and logistics.
+- Audience: contractors, property managers, insurance adjusters, utility and
+  telecom crews, delivery and logistics teams.
 
 ## Features
 - Timestamp engine: date, time, GPS coordinates, altitude, heading and notes
@@ -24,12 +24,16 @@
   AR Compass (markerless AR arrow to true north).
 - Customisation: date format, font size, colour and watermark position;
   voice-to-text notes; hashtag project grouping.
-- iOS 17 Live Activities and Lock Screen widgets.
 
 ## Pages
 - [Home](https://allan-ngugi-nganga.github.io/StampCam-Website/): product overview, features, pricing, FAQ.
+- [Guides](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/): how-to articles on timestamped photo documentation.
+- [For contractors](https://allan-ngugi-nganga.github.io/StampCam-Website/for/contractors.html)
+- [For insurance adjusters](https://allan-ngugi-nganga.github.io/StampCam-Website/for/insurance.html)
+- [For real estate](https://allan-ngugi-nganga.github.io/StampCam-Website/for/real-estate.html)
+- [For property managers](https://allan-ngugi-nganga.github.io/StampCam-Website/for/property-managers.html)
 - [Marketing](https://allan-ngugi-nganga.github.io/StampCam-Website/marketing.html): press and partner overview.
-- [Support](https://allan-ngugi-nganga.github.io/StampCam-Website/support.html): help, troubleshooting and contact.
+- [Support](https://allan-ngugi-nganga.github.io/StampCam-Website/support.html)
 - [Privacy Policy](https://allan-ngugi-nganga.github.io/StampCam-Website/privacy.html)
 - [Terms of Use](https://allan-ngugi-nganga.github.io/StampCam-Website/terms.html)
 

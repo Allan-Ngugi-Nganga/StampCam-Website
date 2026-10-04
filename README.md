@@ -22,6 +22,8 @@ support.html          Support and troubleshooting (App Store required)
 marketing.html        Press and partner overview (App Store marketing URL)
 terms.html            Terms of use and copyright
 404.html              Not found page
+guides/               Guides hub plus how-to articles (HowTo / FAQ schema)
+for/                  Industry landing pages (contractors, insurance, real estate, property managers)
 robots.txt            Crawler rules (search + AI crawlers allowed)
 sitemap.xml           XML sitemap
 llms.txt              Machine summary for AI agents and assistants
@@ -38,11 +40,12 @@ assets/
   og-image.png/.jpg   Social preview (1200x630)
 ```
 
-## Brand
+## Design
 
-Near-black surfaces, silver typography and a single red accent, matched to the
-app icon. Typeface: Inter. Colour and spacing tokens live in the `:root` block
-of `assets/styles.css`.
+Light, editorial, Apple product-page direction. Hierarchy comes from type,
+spacing and hairlines: no gradients, no glass, no decorative shapes, one
+restrained accent. Type is the system font stack, so iPhones render in SF Pro.
+Tokens live in the `:root` block of `assets/styles.css`.
 
 ## Run locally
 
@@ -67,6 +70,9 @@ Search and replace across the repo:
    in `sitemap.xml`, in `llms.txt` and in `robots.txt`.
 4. **Support email.** Confirm `support@stampcam.app` is the address you want
    used in the footer, the legal pages and the JSON-LD.
+5. **Analytics (optional).** In `assets/app.js`, set `ANALYTICS_SRC` and
+   `ANALYTICS_ATTRS`. Recommended: Cloudflare Web Analytics (cookieless, no
+   consent banner) or Plausible. Leave empty to ship no analytics at all.
 
 ## Deploy (GitHub Pages)
 
