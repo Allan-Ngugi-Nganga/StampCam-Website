@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# AI crawlers welcome
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://allan-ngugi-nganga.github.io/StampCam-Website/sitemap.xml

@@ -1,0 +1,8 @@
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Local build and QA helpers (kept out of the published site)
+_tools/

@@ -1,0 +1,37 @@
+# StampCam
+
+> StampCam is a GPS timestamp camera for iPhone. It burns verified date, time,
+> GPS coordinates, altitude and compass heading onto every photo along with
+> custom notes, then exports branded PDF reports. It is a one-time purchase of
+> $19.99 with no subscription, and every photo, report and location stays
+> on-device with no servers, accounts or tracking.
+
+## Key facts
+- Product: StampCam, a GPS timestamp camera app for iPhone.
+- Platform: iPhone, iOS 17 or later.
+- Price: $19.99 one-time purchase. No subscription, no in-app purchases.
+- Category: Business / photo and video documentation.
+- Privacy: fully on-device. No backend, no account, no analytics, no ad SDKs.
+- Positioning: field documentation tool for contractors, property managers,
+  insurance adjusters, utility and telecom crews, and delivery and logistics.
+
+## Features
+- Timestamp engine: date, time, GPS coordinates, altitude, heading and notes
+  burned into the image pixels.
+- Verified time: NTP check flags a clock that has been changed.
+- PDF reports: branded cover sheet, two photos per page, exportable on site.
+- Four camera modes: Standard, Site (spirit level), Document (scanner),
+  AR Compass (markerless AR arrow to true north).
+- Customisation: date format, font size, colour and watermark position;
+  voice-to-text notes; hashtag project grouping.
+- iOS 17 Live Activities and Lock Screen widgets.
+
+## Pages
+- [Home](https://allan-ngugi-nganga.github.io/StampCam-Website/): product overview, features, pricing, FAQ.
+- [Marketing](https://allan-ngugi-nganga.github.io/StampCam-Website/marketing.html): press and partner overview.
+- [Support](https://allan-ngugi-nganga.github.io/StampCam-Website/support.html): help, troubleshooting and contact.
+- [Privacy Policy](https://allan-ngugi-nganga.github.io/StampCam-Website/privacy.html)
+- [Terms of Use](https://allan-ngugi-nganga.github.io/StampCam-Website/terms.html)
+
+## Contact
+- Email: support@stampcam.app

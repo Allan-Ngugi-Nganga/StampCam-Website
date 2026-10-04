@@ -4,94 +4,198 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>StampCam: GPS Timestamp Camera for iOS</title>
-  <meta name="description" content="StampCam is a professional GPS timestamp camera for iOS. Burn date, time, GPS coordinates, altitude, heading and notes onto every photo, then export branded PDF reports. Pay once, own forever. No subscriptions.">
-  <meta name="theme-color" content="#08080a">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="StampCam is a GPS timestamp camera for iPhone. Burn verified date, time, GPS coordinates, altitude and heading onto every photo, then export branded PDF reports. Pay once, own forever. No subscriptions.">
+  <meta name="theme-color" content="#0a0a0d">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="author" content="StampCam">
+  <meta name="keywords" content="timestamp camera, GPS camera, geotag camera, photo timestamp app, PDF inspection report, construction photo documentation, iOS timestamp camera">
+
+  <!-- Canonical. Update if a custom domain is added. -->
+  <link rel="canonical" href="https://allan-ngugi-nganga.github.io/StampCam-Website/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="StampCam">
+  <meta property="og:title" content="StampCam: GPS Timestamp Camera for iOS">
+  <meta property="og:description" content="Verified date, time, GPS, altitude and heading on every photo, with branded PDF reports. One-time purchase, no subscriptions, fully on-device.">
+  <meta property="og:url" content="https://allan-ngugi-nganga.github.io/StampCam-Website/">
+  <meta property="og:image" content="https://allan-ngugi-nganga.github.io/StampCam-Website/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="StampCam: GPS Timestamp Camera for iOS">
+  <meta name="twitter:description" content="Verified date, time, GPS, altitude and heading on every photo, with branded PDF reports. Pay once, own forever.">
+  <meta name="twitter:image" content="https://allan-ngugi-nganga.github.io/StampCam-Website/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="apple-itunes-app" content="app-id=0000000000">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#org",
+        "name": "StampCam",
+        "url": "https://allan-ngugi-nganga.github.io/StampCam-Website/",
+        "logo": "https://allan-ngugi-nganga.github.io/StampCam-Website/assets/icon-512.png",
+        "email": "support@stampcam.app",
+        "description": "StampCam develops a GPS timestamp camera for iOS."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#website",
+        "url": "https://allan-ngugi-nganga.github.io/StampCam-Website/",
+        "name": "StampCam",
+        "publisher": { "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#org" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#app",
+        "name": "StampCam",
+        "alternateName": "StampCam GPS Timestamp Camera",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Photo and video",
+        "operatingSystem": "iOS 17 or later",
+        "softwareVersion": "1.0",
+        "url": "https://allan-ngugi-nganga.github.io/StampCam-Website/",
+        "image": "https://allan-ngugi-nganga.github.io/StampCam-Website/assets/icon-512.png",
+        "description": "A GPS timestamp camera for iPhone that burns verified date, time, GPS coordinates, altitude and heading onto every photo, then exports branded PDF reports. One-time purchase, fully on-device.",
+        "publisher": { "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#org" },
+        "offers": {
+          "@type": "Offer",
+          "price": "19.99",
+          "priceCurrency": "USD",
+          "category": "One-time purchase"
+        },
+        "featureList": [
+          "Verified date and time watermarking",
+          "GPS coordinates, altitude and heading stamped on every photo",
+          "Branded PDF inspection reports",
+          "Standard, Site, Document and AR Compass camera modes",
+          "NTP time verification",
+          "Customisable stamp format, font and position",
+          "Fully on-device with no accounts or tracking"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allan-ngugi-nganga.github.io/StampCam-Website/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://allan-ngugi-nganga.github.io/StampCam-Website/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is a GPS timestamp camera?", "acceptedAnswer": { "@type": "Answer", "text": "A GPS timestamp camera captures photos with the date, time and location permanently embedded in the image. StampCam stamps the date, time, GPS coordinates, altitude and compass heading onto every shot and verifies the clock against network time, so the image itself carries the record of when and where it was taken." } },
+          { "@type": "Question", "name": "Is StampCam a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "No. StampCam is a one-time purchase of 19.99 dollars with no subscriptions, no in-app purchases and no recurring fees. Every feature is unlocked permanently." } },
+          { "@type": "Question", "name": "Does StampCam work offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StampCam is a fully native app and all photos, reports and data are processed on your device. A connection is only useful for the NTP time check and for GPS fixes, and the app keeps working without either." } },
+          { "@type": "Question", "name": "Where are my photos and location stored?", "acceptedAnswer": { "@type": "Answer", "text": "Strictly on your iPhone. StampCam has no backend servers, so nothing is uploaded, sold or shared, and there are no analytics or third-party tracking SDKs." } },
+          { "@type": "Question", "name": "What do I need to run StampCam?", "acceptedAnswer": { "@type": "Answer", "text": "An iPhone running iOS 17 or later. Live Activities and Lock Screen widgets use iOS 17 capabilities." } },
+          { "@type": "Question", "name": "Can I customise how the stamp looks?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You control the date format, font size, font colour and which corner the watermark sits in, and you can add multi-line notes to any shot." } }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
   <header class="nav" id="nav">
     <div class="wrap nav-inner">
-      <a class="brand" href="#top">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.7l1.1-1.6A1 1 0 0 1 10.1 4h3.8a1 1 0 0 1 .8.4L15.8 6h1.7A2.5 2.5 0 0 1 20 8.5v8A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5z"/>
-            <circle cx="12" cy="12.5" r="3.2"/>
-          </svg>
-        </span>
+      <a class="brand" href="index.html" aria-label="StampCam home">
+        <span class="brand-mark"><img src="assets/icon-192.png" width="30" height="30" alt="StampCam app icon"></span>
         <span class="brand-name">StampCam</span>
       </a>
-      <nav class="nav-links" aria-label="Sections">
+      <nav class="nav-links" aria-label="Primary">
         <a href="#features">Features</a>
         <a href="#modes">Modes</a>
         <a href="#reports">Reports</a>
         <a href="#privacy">Privacy</a>
         <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
+        <a href="support.html">Support</a>
       </nav>
-      <a class="btn btn-primary nav-cta" href="#pricing">Get StampCam</a>
+      <a class="btn btn-primary nav-cta" href="#download" data-store>Get StampCam</a>
     </div>
   </header>
 
   <main id="main">
+
     <!-- HERO -->
-    <section class="hero" id="top">
-      <div class="hero-bg" aria-hidden="true">
-        <span class="blob blob-a"></span>
-        <span class="blob blob-b"></span>
-        <span class="grain"></span>
-      </div>
+    <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">GPS Timestamp Camera for iOS</p>
+          <p class="eyebrow">GPS timestamp camera for iPhone</p>
           <h1>Photos that hold up as evidence.</h1>
-          <p class="lede">StampCam burns date, time, GPS coordinates, altitude, heading and custom notes straight onto every photo, then turns them into professional PDF reports. Built for people who document work in the real world.</p>
+          <p class="lede">StampCam stamps verified date, time, GPS coordinates, altitude and heading onto every shot, then exports a branded PDF report before you leave the site. Built for people whose photos have to prove something.</p>
           <div class="hero-cta">
-            <a class="btn btn-primary" href="#pricing">Get it on the App Store</a>
-            <a class="btn btn-ghost" href="#features">See how it works</a>
+            <a class="btn btn-primary btn-lg" href="#download" data-store>
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3c-.9.1-2 .6-2.6 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.6-1.3.6-.8 1.1-1.8.9-2.9zM19 17.3c-.5 1.1-.8 1.6-1.4 2.6-.9 1.3-2.1 3-3.7 3-1.4 0-1.8-.9-3.7-.9s-2.3.9-3.7.9c-1.6 0-2.8-1.5-3.7-2.9C.2 16.6-.1 11.9 1.2 9.4c.9-1.7 2.4-2.7 3.8-2.7 1.4 0 2.3.9 3.5.9 1.1 0 1.8-.9 3.5-.9 1.2 0 2.6.7 3.5 1.9-3.1 1.7-2.6 6.1 1.5 6.7z"/></svg>
+              Download on the App Store
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#features">See how it works</a>
           </div>
-          <p class="hero-note"><strong>$19.99</strong> one-time. iOS 17 or later. Pay once, own forever.</p>
+          <div class="hero-meta">
+            <span>$19.99 once</span>
+            <span class="dot"></span>
+            <span>No subscription</span>
+            <span class="dot"></span>
+            <span>Works fully offline</span>
+          </div>
         </div>
 
-        <div class="hero-device reveal" aria-hidden="true">
-          <div class="device">
-            <div class="device-notch"></div>
-            <div class="device-screen">
-              <div class="photo">
-                <div class="photo-scene"></div>
-                <div class="stamp">
-                  <div class="stamp-row stamp-head"><span class="dot"></span> STAMPCAM</div>
-                  <div class="stamp-grid">
-                    <div><span class="k">DATE</span><span class="v">2026-10-05</span></div>
-                    <div><span class="k">TIME</span><span class="v">09:41:07 EAT</span></div>
-                    <div><span class="k">GPS</span><span class="v">-1.2921, 36.8219</span></div>
-                    <div><span class="k">ALT</span><span class="v">1,795 m</span></div>
-                    <div><span class="k">HDG</span><span class="v">312&deg; NW</span></div>
-                    <div><span class="k">SITE</span><span class="v">#Audit</span></div>
-                  </div>
-                  <div class="stamp-note">North wall, stage 2 framing</div>
-                  <div class="stamp-ok"><span class="tick">&#10003;</span> NTP time verified</div>
+        <figure class="reveal" style="margin:0">
+          <div class="specimen">
+            <div class="specimen-bar">
+              <span class="rec"></span><b>Sample capture</b><span class="grow"></span><span class="chip">Site mode</span>
+            </div>
+            <div class="shot">
+              <dl class="stamp">
+                <div class="stamp-head"><span class="rec"></span>STAMPCAM<span class="verify">&#10003; Time verified</span></div>
+                <div class="stamp-grid">
+                  <div><dt>Date</dt><dd>2026-10-05</dd></div>
+                  <div><dt>Time</dt><dd>09:41:07 EAT</dd></div>
+                  <div><dt>GPS</dt><dd>-1.2921, 36.8219</dd></div>
+                  <div><dt>Altitude</dt><dd>1,795 m</dd></div>
+                  <div><dt>Heading</dt><dd>312&deg; NW</dd></div>
+                  <div><dt>Project</dt><dd>#NorthWing</dd></div>
                 </div>
-              </div>
+                <p class="stamp-note">North wall, stage 2 framing. Ready for handover.</p>
+              </dl>
             </div>
           </div>
-        </div>
+          <figcaption class="specimen-cap">The full data set is burned into the image itself, not stored beside it.</figcaption>
+        </figure>
       </div>
+    </section>
 
-      <div class="wrap trust reveal">
-        <p class="trust-label">Built for the people who document for a living</p>
-        <ul class="trust-list">
+    <!-- TRUST STRIP -->
+    <section class="strip" aria-label="Who uses StampCam">
+      <div class="wrap strip-inner">
+        <p class="strip-label">Built for the people who document for a living</p>
+        <ul class="strip-list">
           <li>Contractors</li>
-          <li>Real estate agents</li>
+          <li>Property managers</li>
           <li>Insurance adjusters</li>
-          <li>Landlords and property managers</li>
-          <li>Delivery drivers</li>
+          <li>Utility and telecom crews</li>
+          <li>Delivery and logistics</li>
         </ul>
       </div>
     </section>
@@ -100,96 +204,96 @@
     <section class="section" id="features">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="eyebrow">Everything you need in the field</p>
-          <h2>Heavy-duty by design</h2>
-          <p class="sub">A focused toolset for professionals who need proof, not filters.</p>
+          <p class="eyebrow">Everything needed in the field</p>
+          <h2>A field tool, not a filter app</h2>
+          <p class="sub">Every feature exists to make a photo usable as a record. Nothing exists to make it prettier.</p>
         </header>
 
-        <div class="grid grid-3">
-          <article class="card glass reveal">
-            <div class="card-icon">
+        <div class="grid grid-3 reveal">
+          <article class="cell">
+            <div class="cell-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21s-6-5.2-6-10a6 6 0 0 1 12 0c0 4.8-6 10-6 10z"/></svg>
             </div>
-            <h3>Ultimate timestamp engine</h3>
-            <p>Tamper-proof date and time watermarking, high-accuracy GPS coordinates, altitude and compass heading, and custom multi-line notes burned directly into the image.</p>
+            <h3>Timestamp engine</h3>
+            <p>Date, time, GPS coordinates, altitude and compass heading are burned directly into the pixels, along with any multi-line notes you add.</p>
           </article>
 
-          <article class="card glass reveal">
-            <div class="card-icon">
+          <article class="cell">
+            <div class="cell-ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.4-3 8.3-7 10-4-1.7-7-5.6-7-10V6z"/><path d="M9.5 12l1.8 1.8 3.4-3.6"/></svg>
+            </div>
+            <h3>Verified time</h3>
+            <p>An NTP check compares your clock against network time and flags a timestamp that has been changed, so the record is not easy to fake.</p>
+          </article>
+
+          <article class="cell">
+            <div class="cell-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>
             </div>
-            <h3>Professional PDF reports</h3>
-            <p>Select photos from your gallery and instantly generate a branded PDF. A two-photos-per-page layout with a formal cover sheet, ready to send to clients or insurers before you leave the site.</p>
+            <h3>PDF reports</h3>
+            <p>Select photos from the gallery and generate a branded report instantly: a formal cover sheet and two photos per page, ready for a client or an insurer.</p>
           </article>
 
-          <article class="card glass reveal">
-            <div class="card-icon">
+          <article class="cell">
+            <div class="cell-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.4"/></svg>
             </div>
             <h3>Four camera modes</h3>
-            <p>Standard for fast stamping, Site for structural alignment with a built-in spirit level, Document for receipts and paperwork, and AR Compass for true-north orientation in any room.</p>
+            <p>Standard, Site, Document and AR Compass. Each mode is tuned to a different kind of job, so the right tool is always one tap away.</p>
           </article>
 
-          <article class="card glass reveal">
-            <div class="card-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.4-3 8.3-7 10-4-1.7-7-5.6-7-10V6z"/><path d="M9.5 12l1.8 1.8 3.4-3.6"/></svg>
+          <article class="cell">
+            <div class="cell-ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="15" r="3"/></svg>
             </div>
-            <h3>Anti-tampering and control</h3>
-            <p>Built-in NTP time verification checks the timestamp against network time so it cannot be spoofed. Full control over date format, font size, font color and watermark position.</p>
+            <h3>Full control</h3>
+            <p>Set the date format, font size, font colour and watermark corner. Dictate notes by voice and group shots into projects with hashtags as you shoot.</p>
           </article>
 
-          <article class="card glass reveal">
-            <div class="card-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l7-9 4 5 3-4 2 3"/><path d="M4 20h16"/></svg>
-            </div>
-            <h3>Retro themes</h3>
-            <p>Hidden easter-egg overlays, VCR Camcorder and LED Digital, for when a job calls for a little character on top of the data.</p>
-          </article>
-
-          <article class="card glass reveal">
-            <div class="card-icon">
+          <article class="cell">
+            <div class="cell-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V8a4 4 0 0 1 8 0v2"/><path d="M12 14v3"/></svg>
             </div>
-            <h3>Zero subscriptions, total privacy</h3>
-            <p>No recurring fees, no backend servers, no ads and no third-party tracking SDKs. Photos, location and notes are processed and stored strictly on your device.</p>
+            <h3>On-device, private</h3>
+            <p>No servers, no account, no ads and no third-party tracking. Photos, location and notes are processed and stored strictly on your iPhone.</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- MODES -->
-    <section class="section alt" id="modes">
+    <section class="section" id="modes">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="eyebrow">Four specialized camera modes</p>
+          <p class="eyebrow">Four specialised camera modes</p>
           <h2>One camera, four disciplines</h2>
-          <p class="sub">Switch modes to match the job in front of you.</p>
+          <p class="sub">Switch modes to match the job in front of you. The data set adapts, the workflow stays the same.</p>
         </header>
 
         <div class="modes reveal">
           <div class="mode-tabs" role="tablist" aria-label="Camera modes">
-            <button class="mode-tab is-active" role="tab" aria-selected="true" data-mode="std">Standard</button>
-            <button class="mode-tab" role="tab" aria-selected="false" data-mode="site">Site</button>
-            <button class="mode-tab" role="tab" aria-selected="false" data-mode="doc">Document</button>
-            <button class="mode-tab" role="tab" aria-selected="false" data-mode="ar">AR Compass</button>
+            <button class="mode-tab is-active" role="tab" aria-selected="true" aria-controls="panel-std" id="tab-std" data-mode="std">Standard</button>
+            <button class="mode-tab" role="tab" aria-selected="false" aria-controls="panel-site" id="tab-site" data-mode="site">Site</button>
+            <button class="mode-tab" role="tab" aria-selected="false" aria-controls="panel-doc" id="tab-doc" data-mode="doc">Document</button>
+            <button class="mode-tab" role="tab" aria-selected="false" aria-controls="panel-ar" id="tab-ar" data-mode="ar">AR Compass</button>
           </div>
 
-          <div class="mode-panels glass">
-            <div class="mode-panel is-active" data-panel="std">
-              <h3>Standard</h3>
-              <p>Quick, point-and-shoot watermarking. Capture the shot and the full data set is stamped in a single tap, no menus in the way.</p>
+          <div class="mode-panels">
+            <div class="mode-panel is-active" role="tabpanel" id="panel-std" aria-labelledby="tab-std" data-panel="std">
+              <span class="tag">Standard</span>
+              <p>Fast point-and-shoot stamping. Capture the shot and the full data set is applied in a single tap, with no menus in the way of the moment.</p>
             </div>
-            <div class="mode-panel" data-panel="site">
-              <h3>Site</h3>
-              <p>Adds a built-in spirit level with crosshairs, so you can measure structural alignment and keep walls, frames and fittings dead straight in the frame.</p>
+            <div class="mode-panel" role="tabpanel" id="panel-site" aria-labelledby="tab-site" data-panel="site" hidden>
+              <span class="tag">Site</span>
+              <p>A built-in spirit level and crosshairs, so you can check structural alignment and keep walls, frames and fittings straight in the frame while the location and time are recorded.</p>
             </div>
-            <div class="mode-panel" data-panel="doc">
-              <h3>Document</h3>
-              <p>A built-in scanner for receipts and paperwork. Capture contracts, invoices and forms with the timestamp and location applied as proof of when and where they were taken.</p>
+            <div class="mode-panel" role="tabpanel" id="panel-doc" aria-labelledby="tab-doc" data-panel="doc" hidden>
+              <span class="tag">Document</span>
+              <p>A built-in scanner for receipts, invoices, contracts and forms. The timestamp and location are applied as proof of when and where the document was captured.</p>
             </div>
-            <div class="mode-panel" data-panel="ar">
-              <h3>AR Compass</h3>
-              <p>Marker-less augmented reality that places a floating 3D red arrow in the room pointing to true north, so orientation is captured with the photo, not remembered later.</p>
+            <div class="mode-panel" role="tabpanel" id="panel-ar" aria-labelledby="tab-ar" data-panel="ar" hidden>
+              <span class="tag">AR Compass</span>
+              <p>Markerless augmented reality places a floating 3D arrow in the room pointing to true north, so orientation is captured with the photo instead of remembered later.</p>
             </div>
           </div>
         </div>
@@ -200,24 +304,24 @@
     <section class="section" id="reports">
       <div class="wrap split">
         <div class="split-copy reveal">
-          <p class="eyebrow">Deliverables, done in the field</p>
+          <p class="eyebrow">Deliverables, done on site</p>
           <h2>From camera roll to client-ready PDF</h2>
-          <p>Select multiple photos from the built-in gallery and generate a branded report instantly. Two photos per page with a formal cover sheet, so a job that used to take an evening in the office is ready before you pack up.</p>
+          <p>A job that used to take an evening in the office is finished before you pack up. Select multiple photos from the StampCam gallery and the report generates on the spot.</p>
           <ul class="ticks">
             <li>Branded cover sheet with your details</li>
-            <li>Two photos per page with their full data overlays</li>
+            <li>Two photos per page, each with its full data overlay</li>
             <li>Export and share straight to clients or insurers</li>
-            <li>Works with photos already in your StampCam gallery</li>
+            <li>Works with any photo already in your StampCam gallery</li>
           </ul>
         </div>
-        <div class="split-art reveal" aria-hidden="true">
-          <div class="report glass">
+        <div class="split-art reveal">
+          <div class="report">
             <div class="report-page">
               <div class="report-cover">
-                <div class="report-brand">StampCam</div>
-                <div class="report-line"></div>
-                <div class="report-meta">Inspection Report</div>
-                <div class="report-meta small">Prepared on site, 05 Oct 2026</div>
+                <div class="report-brand"><img src="assets/icon-192.png" width="24" height="24" alt="">StampCam</div>
+                <p class="report-meta big">Site Inspection Report</p>
+                <div class="report-row"><span>Prepared on site</span><span>05 Oct 2026</span></div>
+                <div class="report-row"><span>Project</span><span>#NorthWing</span></div>
               </div>
               <div class="report-photos">
                 <span class="rp rp-a"></span>
@@ -230,33 +334,27 @@
     </section>
 
     <!-- PRIVACY -->
-    <section class="section alt" id="privacy">
+    <section class="section" id="privacy">
       <div class="wrap">
         <header class="section-head reveal">
           <p class="eyebrow">No cloud, no catch</p>
           <h2>Your data never leaves your iPhone</h2>
           <p class="sub">StampCam is a fully native app with no backend servers. Nothing about your photos, location or notes is uploaded, sold or shared.</p>
         </header>
-        <div class="stats">
-          <div class="stat glass reveal"><span class="stat-num">0</span><span class="stat-label">Subscriptions</span></div>
-          <div class="stat glass reveal"><span class="stat-num">0</span><span class="stat-label">Servers</span></div>
-          <div class="stat glass reveal"><span class="stat-num">0</span><span class="stat-label">Tracking SDKs</span></div>
-          <div class="stat glass reveal"><span class="stat-num">100%</span><span class="stat-label">On-device</span></div>
+
+        <div class="privacy-grid reveal">
+          <div class="stat"><span class="stat-num">0</span><span class="stat-label">Subscriptions</span></div>
+          <div class="stat"><span class="stat-num">0</span><span class="stat-label">Backend servers</span></div>
+          <div class="stat"><span class="stat-num">0</span><span class="stat-label">Tracking SDKs</span></div>
+          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">On-device</span></div>
         </div>
 
-        <div class="grid grid-3 ios">
-          <article class="card glass reveal">
-            <h3>Live Activities</h3>
-            <p>iOS 17 Live Activities and Lock Screen widgets track an active site visit in real time, right from the Lock Screen.</p>
-          </article>
-          <article class="card glass reveal">
-            <h3>Voice to text</h3>
-            <p>Dictate notes hands-free in the field, so your annotations keep up with the walkthrough instead of slowing it down.</p>
-          </article>
-          <article class="card glass reveal">
-            <h3>Hashtag grouping</h3>
-            <p>Tag photos as you shoot, for example #Audit, and StampCam groups them into projects automatically.</p>
-          </article>
+        <div class="ledger reveal">
+          <div class="ledger-row"><span class="k">Account required</span><span class="v none">None</span></div>
+          <div class="ledger-row"><span class="k">Photos uploaded</span><span class="v none">None</span></div>
+          <div class="ledger-row"><span class="k">Location sent off device</span><span class="v none">None</span></div>
+          <div class="ledger-row"><span class="k">Analytics or advertising SDKs</span><span class="v none">None</span></div>
+          <div class="ledger-row"><span class="k">Data sold or shared</span><span class="v none">None</span></div>
         </div>
       </div>
     </section>
@@ -264,36 +362,32 @@
     <!-- PRICING -->
     <section class="section" id="pricing">
       <div class="wrap">
-        <header class="section-head reveal">
+        <header class="section-head center reveal">
           <p class="eyebrow">Pricing</p>
           <h2>Pay once. Own forever.</h2>
           <p class="sub">No subscriptions. No trial that quietly becomes a monthly bill.</p>
         </header>
 
         <div class="pricing">
-          <article class="price-card glass reveal">
-            <div class="price-top">
-              <span class="price-badge">StampCam</span>
-              <div class="price-amount"><span class="price-cur">$</span>19<span class="price-dec">.99</span></div>
-              <p class="price-once">One-time purchase</p>
-            </div>
+          <article class="price-card featured reveal">
+            <span class="price-name">StampCam</span>
+            <div class="price-amount"><span class="cur">$</span>19<span class="per">.99 once</span></div>
+            <p class="price-sub">One-time purchase</p>
             <ul class="ticks">
-              <li>Every feature unlocked, forever</li>
+              <li>Every feature unlocked, permanently</li>
               <li>Unlimited photos and PDF reports</li>
-              <li>All four camera modes and retro themes</li>
+              <li>All four camera modes and themes</li>
               <li>Free updates</li>
               <li>No account, no tracking, no ads</li>
             </ul>
-            <a class="btn btn-primary btn-block" href="#top">Get it on the App Store</a>
+            <a class="btn btn-primary btn-block btn-lg" href="#download" data-store>Download on the App Store</a>
           </article>
 
-          <article class="price-card glass muted-card reveal">
-            <div class="price-top">
-              <span class="price-badge muted">Typical timestamp apps</span>
-              <div class="price-amount muted-amount"><span class="price-cur">$</span>5<span class="price-dec"> to $15 / mo</span></div>
-              <p class="price-once">Recurring, indefinitely</p>
-            </div>
-            <ul class="ticks cross">
+          <article class="price-card dim reveal">
+            <span class="price-name">Typical timestamp apps</span>
+            <div class="price-amount"><span class="cur">$</span>5<span class="per"> to $15 / mo</span></div>
+            <p class="price-sub">Recurring, indefinitely</p>
+            <ul class="ticks">
               <li>Roughly $60 to $180 every year</li>
               <li>Features paywalled behind higher tiers</li>
               <li>Often uploads your data to a server</li>
@@ -307,17 +401,21 @@
     </section>
 
     <!-- FAQ -->
-    <section class="section alt" id="faq">
-      <div class="wrap narrow">
-        <header class="section-head reveal">
+    <section class="section" id="faq">
+      <div class="wrap-narrow">
+        <header class="section-head center reveal">
           <p class="eyebrow">Questions</p>
           <h2>Good to know</h2>
         </header>
 
         <div class="faq reveal">
           <details>
-            <summary>Is it really a one-time purchase?</summary>
-            <p>Yes. You pay $19.99 once and every feature is unlocked permanently. There are no subscriptions, no in-app purchases and no recurring fees.</p>
+            <summary>What is a GPS timestamp camera?</summary>
+            <p>A GPS timestamp camera captures photos with the date, time and location permanently embedded in the image. StampCam stamps the date, time, GPS coordinates, altitude and compass heading onto every shot and verifies the clock against network time, so the image itself carries the record of when and where it was taken.</p>
+          </details>
+          <details>
+            <summary>Is StampCam a subscription?</summary>
+            <p>No. It is a one-time purchase of $19.99 with no subscriptions, no in-app purchases and no recurring fees. Every feature is unlocked permanently.</p>
           </details>
           <details>
             <summary>Does StampCam work offline?</summary>
@@ -325,11 +423,11 @@
           </details>
           <details>
             <summary>Where are my photos and location stored?</summary>
-            <p>Strictly on your iPhone. StampCam has no backend servers, so nothing is uploaded, sold or shared.</p>
+            <p>Strictly on your iPhone. StampCam has no backend servers, so nothing is uploaded, sold or shared, and there are no analytics or third-party tracking SDKs.</p>
           </details>
           <details>
             <summary>What do I need to run it?</summary>
-            <p>An iPhone running iOS 17 or later. Live Activities and Lock Screen widgets use the iOS 17 capabilities.</p>
+            <p>An iPhone running iOS 17 or later. Live Activities and Lock Screen widgets use iOS 17 capabilities.</p>
           </details>
           <details>
             <summary>Why does the timestamp matter for documentation?</summary>
@@ -337,47 +435,58 @@
           </details>
           <details>
             <summary>Can I customise how the stamp looks?</summary>
-            <p>Yes. You control the date format, font size, font color and which corner the watermark sits in, and you can add multi-line notes to any shot.</p>
+            <p>Yes. You control the date format, font size, font colour and which corner the watermark sits in, and you can add multi-line notes to any shot.</p>
           </details>
         </div>
       </div>
     </section>
 
     <!-- CLOSING -->
-    <section class="closing">
-      <div class="wrap narrow center reveal">
+    <section class="closing" id="download">
+      <div class="wrap-narrow center reveal">
         <h2>Document it once. Prove it forever.</h2>
-        <p class="sub">StampCam, the GPS timestamp camera that pays for itself.</p>
-        <a class="btn btn-primary" href="#pricing">Get it on the App Store</a>
-        <p class="hero-note">$19.99 one-time. iOS 17 or later.</p>
+        <p class="sub">The GPS timestamp camera that pays for itself.</p>
+        <a class="btn btn-primary btn-lg" href="#download" data-store>Download on the App Store</a>
+        <p class="btn-note">$19.99 one-time. iPhone, iOS 17 or later. No subscription.</p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="wrap footer-inner">
-      <div class="footer-brand">
-        <span class="brand-name">StampCam</span>
-        <p>GPS Timestamp Camera for iOS.</p>
-        <div class="footer-legal">
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="terms.html">Terms and Copyright</a>
-          <a href="support.html">Support</a>
-          <a href="marketing.html">Marketing</a>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="StampCam home">
+            <span class="brand-mark"><img src="assets/icon-192.png" width="30" height="30" alt=""></span>
+            <span class="brand-name">StampCam</span>
+          </a>
+          <p>The GPS timestamp camera for iPhone. Pay once, own forever.</p>
         </div>
+        <nav class="footer-col" aria-label="Product">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#modes">Camera modes</a>
+          <a href="#reports">PDF reports</a>
+          <a href="#pricing">Pricing</a>
+        </nav>
+        <nav class="footer-col" aria-label="Company">
+          <h4>Company</h4>
+          <a href="marketing.html">Marketing</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </nav>
+        <nav class="footer-col" aria-label="Get the app">
+          <h4>Get the app</h4>
+          <a href="#download" data-store>App Store</a>
+          <a href="mailto:support@stampcam.app">support@stampcam.app</a>
+          <a href="sitemap.xml">Sitemap</a>
+        </nav>
       </div>
-      <nav class="footer-links" aria-label="Footer">
-        <a href="#features">Features</a>
-        <a href="#modes">Modes</a>
-        <a href="#reports">Reports</a>
-        <a href="#privacy">Privacy</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
-      </nav>
-    </div>
-    <div class="wrap footer-base">
-      <p>&copy; 2026 StampCam. All rights reserved.</p>
-      <p class="footer-note">Not affiliated with Apple. App Store is a trademark of Apple Inc.</p>
+      <div class="footer-base">
+        <p>&copy; 2026 StampCam. All rights reserved.</p>
+        <p>Not affiliated with Apple. App Store is a trademark of Apple Inc.</p>
+      </div>
     </div>
   </footer>
 
