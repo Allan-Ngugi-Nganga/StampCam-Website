@@ -9,21 +9,16 @@
 
   // ---------------------------------------------------------------
   // Privacy-first analytics (cookieless). Cloudflare Web Analytics.
-  // Paste your beacon token below. Until the token is replaced the beacon
-  // is not injected, so nothing broken ships.
-  // Get one: Cloudflare dashboard > Web Analytics > add site > JS snippet.
-  // Alternative: Plausible (ANALYTICS_SRC = "https://plausible.io/js/script.js",
-  //   ANALYTICS_ATTRS = { "data-domain": "example.com" }).
+  // To swap providers, change ANALYTICS_SRC and the attributes below.
   // ---------------------------------------------------------------
   var ANALYTICS_SRC = "https://static.cloudflareinsights.com/beacon.min.js";
-  var ANALYTICS_ATTRS = { "data-cf-beacon": '{"token":"REPLACE_WITH_CLOUDFLARE_WEB_ANALYTICS_TOKEN"}' };
+  var ANALYTICS_TOKEN = "8c9fec5c700c48b29b7521080b1739e0";
 
-  var analyticsReady = ANALYTICS_SRC && JSON.stringify(ANALYTICS_ATTRS).indexOf("REPLACE_WITH") === -1;
-  if (analyticsReady) {
+  if (ANALYTICS_SRC && ANALYTICS_TOKEN) {
     var s = document.createElement("script");
     s.defer = true;
     s.src = ANALYTICS_SRC;
-    Object.keys(ANALYTICS_ATTRS).forEach(function (k) { s.setAttribute(k, ANALYTICS_ATTRS[k]); });
+    s.setAttribute("data-cf-beacon", JSON.stringify({ token: ANALYTICS_TOKEN }));
     document.head.appendChild(s);
   }
 
