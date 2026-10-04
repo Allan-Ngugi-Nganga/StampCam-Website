@@ -30,7 +30,9 @@ for/                  Industry pages: contractors, insurance, real estate, prope
 assets/               Stylesheet, script, app icon set, favicons, social preview
 robots.txt            Crawler rules (search and AI crawlers allowed)
 sitemap.xml           XML sitemap
-llms.txt              Machine summary for AI agents and assistants
+llms.txt              Machine index for AI agents and assistants
+llms-full.txt         Full text of the site and guide library for scraping
+feed.xml              Atom feed of the guide library
 site.webmanifest      Web app manifest
 ```
 

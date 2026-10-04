@@ -1,0 +1,396 @@
+# StampCam - full text for agents
+
+> Complete text of the StampCam website and guide library, for LLM and
+> assistant scraping. Canonical source: https://allan-ngugi-nganga.github.io/StampCam-Website/
+
+## How to add a date and time stamp to photos on iPhone
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-add-a-date-and-time-stamp-to-photos-on-iphone.html
+
+By default an iPhone photo carries its date and time in hidden metadata, not on the picture. If you need a date you can actually see, you have to burn it into the image.
+
+### What the iPhone does by default
+The iPhone Camera app records the date and time in a metadata field called EXIF. You can read it in the Photos app, but nothing appears on the photo itself. That is fine for a camera roll and useless for a document.
+
+### Why hidden metadata is not enough
+EXIF is stripped whenever a photo passes through many messaging apps, gets cropped, is exported for the web or is screenshotted. It can also be edited with free desktop tools. If the date needs to survive sharing, it has to be part of the image.
+
+### Two ways to get a visible stamp
+- Burn it in. An app draws the date and time into the pixels at capture, so it travels with the photo everywhere.
+- Overlay it after. Editing apps can add text, but that is slower, easy to forget, and the result is an edited image, which is weaker for anything evidentiary.
+
+### Steps in StampCam
+- Open StampCam and choose the Standard mode.
+- Pick your date format, for example YYYY-MM-DD.
+- Take the photo. The date, time, coordinates, altitude and heading are stamped in one tap.
+- Add a short note if the shot needs context.
+
+### Getting the details right
+- Turn on automatic time on the iPhone so the clock is accurate.
+- Keep one date format across a set of photos so they read as a record.
+- Place the stamp in a corner that does not cover the subject.
+
+### Questions
+- Does the iPhone camera add a timestamp? No. It stores the date in metadata but does not print it on the photo. You need an app that burns the date into the image.
+- Can I add a date stamp to photos I already took? Yes, with an editing app, but the result is an edited file. For documentation it is better to stamp at capture.
+
+## How to add GPS location to a photo on iPhone
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-add-gps-location-to-a-photo-on-iphone.html
+
+iPhone photos can carry GPS coordinates, but only if location is enabled for the camera, and the coordinates stay hidden in metadata unless an app draws them on the picture.
+
+### Turn on location for the camera
+- Open Settings, then Privacy and Security, then Location Services.
+- Tap Camera and choose While Using the App.
+- Check that Precise Location is on.
+
+### Then check that it worked
+Open the photo in the Photos app and swipe up. If location was recorded, a map thumbnail appears. If it is missing, the permission is off, or the photo was taken somewhere with no GPS fix.
+
+### Making the location visible
+Coordinates in metadata are easily lost when a photo is shared. To make the location part of the record, use an app that burns the coordinates, altitude and heading into the image at capture.
+
+### Accuracy in the field
+- Give the phone a moment to get a satellite fix before shooting.
+- Precise Location matters more than the rough setting.
+- Indoors, coordinates are less accurate, so a heading and a note help.
+
+### Questions
+- Why does my photo have no location? Either Camera location access is off, or the photo was taken without a GPS fix.
+- Can I see coordinates as numbers, not a map? In the Photos app you can, and apps that stamp the image can print the raw latitude and longitude.
+
+## Why your iPhone photos lose location data
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/why-your-iphone-photos-lose-location-data.html
+
+You take a photo with location on, send it to someone, and the location is gone. This is normal, and it is one of the main reasons a visible stamp matters.
+
+### The usual causes
+- Messaging apps. Many strip metadata to save space and protect privacy, so the location never arrives.
+- Export and web tools. Image optimisers and CMS uploads often remove it.
+- Cropping and editing. Some tools drop metadata when they re-save.
+- Screenshots. A screenshot is a new image with no location at all.
+
+### How to tell if it is gone
+Open the photo, swipe up and look for the map. If there is no map, the location was never recorded or was removed along the way.
+
+### The reliable fix
+Do not rely on metadata surviving a trip through an app. Burn the location into the image at capture, so it is part of the picture and travels with it everywhere.
+
+### Questions
+- Does AirDrop keep location? AirDrop usually keeps full metadata between Apple devices, but that is the exception, not the rule for messaging apps.
+- Is there a setting to stop apps stripping location? No. You control the metadata at the source, not at every app it passes through.
+
+## How to check a photo's location and timestamp on iPhone
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-check-a-photos-location-and-timestamp-on-iphone.html
+
+The Photos app shows a photo's captured date, time and location. Knowing where to look is useful, as is knowing what that information cannot tell you.
+
+### In the Photos app
+- Open the photo full screen.
+- Swipe up, or tap the info button.
+- You will see the date and time, and a map if location was recorded.
+- Tap Adjust next to the date to change it, though this does not change the file metadata proof.
+
+### What it cannot tell you
+- Whether the photo was edited after capture.
+- Whether the clock was correct at the time.
+- Anything at all once metadata has been stripped.
+
+### When you need a stronger record
+For work, insurance or legal use, a visible stamp with a network time check gives a record that does not depend on hidden metadata that may already be gone.
+
+### Questions
+- Can the date on a photo be faked? Yes. Metadata can be edited and phone clocks can be changed. A network-verified stamp is harder to fake.
+
+## What makes a photo usable as evidence
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/what-makes-a-photo-usable-as-evidence.html
+
+A photo on its own proves very little. What makes it useful is a set of qualities that together show when it was taken, where, and that it has not been altered.
+
+### The five qualities
+- Time. A date and time, ideally verified against network time so a changed clock is visible.
+- Place. Coordinates, and enough context to recognise the location.
+- Authenticity. No edits after capture that could be seen as tampering.
+- Clarity. In focus, well lit, with the relevant detail visible.
+- Continuity. A coherent set, in order, with a plausible story.
+
+### Why edits hurt
+Cropping, filters and retouching all change the file. Even when innocent, they invite the question of what else changed. For documentation, shoot it right the first time and leave it alone.
+
+### Making the set coherent
+- Wide shot for context, mid shot, then close up of the detail.
+- Keep one consistent stamp format across the set.
+- Add short notes so each photo stands alone.
+- Export the set as one dated document.
+
+### What it still is not
+A strong documentation aid is not a cryptographic guarantee and does not replace the rules of a particular court, insurer or client. Treat it as the best available record, not an absolute.
+
+### Questions
+- Do photos need to be originals? Originals are safer. If you must edit, keep a copy of the original and be able to explain any change.
+- Is a screenshot of a photo useful? Rarely. A screenshot loses the original image data and the location.
+
+## Timestamped photos for legal documentation
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/timestamped-photos-for-legal-documentation.html
+
+Legal and compliance work rewards consistency. The same rules applied on every occasion produce a record that reads as deliberate, not retrofitted.
+
+### Start with a fixed routine
+Decide in advance what you capture: an overview, the specific item, and a wider shot for context. Apply the same routine every time so two visits can be compared directly.
+
+### Protect the timestamp
+- Keep the phone clock on automatic.
+- Use a network time check so a changed clock is flagged.
+- Never edit or crop after capture.
+- Keep a consistent date format.
+
+### Keep the record together
+Photos scattered across a camera roll are hard to present. Export a dated PDF per matter, with a cover sheet and the photos in order, and store it with the case file.
+
+### Privacy
+For sensitive matters, on-device processing matters. If the app uploads photos to a server, the record is out of your hands. StampCam works fully on the phone, so nothing leaves the device.
+
+### Questions
+- Are timestamped photos admissible in court? Admissibility depends on the court and the matter. A clear, unedited, dated record supports the case, but it is not a guarantee.
+- Should I keep the original files? Yes. Keep originals alongside any exported report.
+
+## How to photograph damage for an insurance claim
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-photograph-damage-for-an-insurance-claim.html
+
+Adjusters are not judging whether damage exists. They are judging whether your photos are trustworthy and complete. A routine shot list removes the guesswork.
+
+### The shot list
+- A wide shot that places the property or vehicle in context.
+- A mid shot of the affected area.
+- Close ups of each distinct piece of damage.
+- Any serial, plate or model number.
+- A shot of anything that changes your claim, such as a temporary repair.
+
+### Keep it trustworthy
+- Leave the phone clock on automatic and use a network time check.
+- Do not edit, crop or filter.
+- Shoot in good light, and describe anything that is hard to see.
+- Add a one line note with the claim reference.
+
+### File it as one document
+Rather than sending a dozen loose images, export a single PDF with a cover sheet and the photos. It is easier for the adjuster and easier for you to reference later.
+
+### Questions
+- How many photos should I take? Enough to tell the story without gaps: usually one wide, one mid and several close ups per item of damage.
+- Should I include a photo of the date? The date should be visible on every photo, ideally verified. You should not need a separate photo of a clock.
+
+## Documenting a car accident with timestamped photos
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/documenting-a-car-accident-with-timestamped-photos.html
+
+At a collision, memory is unreliable and time is short. A fixed order of shots captures the essentials before anything changes.
+
+### At the scene, in order
+- An overview of the whole scene, with both vehicles.
+- Each vehicle from four corners.
+- Number plates and any visible damage close up.
+- Road conditions, signals and any skid marks.
+- Anything that shows the weather and time of day.
+
+### After the event
+- Photograph your vehicle again the next day, in daylight.
+- Photograph any damage that appears later.
+- Keep every photo unedited and timestamped.
+
+### Why the timestamp matters
+Disputes often turn on when damage appeared. A verifiable date on every photo shows what existed at the scene and what appeared afterwards.
+
+### Questions
+- Should I photograph the other driver? Photograph vehicles, plates and the scene. Do not photograph people without reason and permission.
+- Do I need location on the photos? Yes. Coordinates tie the photos to the exact spot, which matters at junctions and car parks.
+
+## How to create a daily site report with photos
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-create-a-daily-site-report-with-photos.html
+
+A daily site report that is quick to produce and easy to read protects everyone: the contractor, the client and the crew.
+
+### What a daily report covers
+- Progress by area, from consistent vantage points.
+- Any defects, delays or issues, with photos.
+- Deliveries, plant and materials on site.
+- Safety and compliance observations.
+- Weather and anything that affects the work.
+
+### The routine
+- Walk the site in the same order each day.
+- Shoot the same sequences so change is obvious.
+- Add a one line note to each key shot.
+- Export a dated PDF before you leave.
+
+### Keeping jobs separate
+Group photos per project so reports never mix. StampCam uses hashtags such as #NorthWing to group shots automatically.
+
+### Questions
+- How long should a daily report take? With a fixed routine, the photos are taken during the walk and the PDF generates on site in a minute.
+- Should each photo be timestamped? Yes. It ties the report to the day and stops any dispute about when work happened.
+
+## Progress photo documentation for renovations
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/progress-photo-documentation-for-renovations.html
+
+Renovations move fast and change daily. Fixed camera positions turn a pile of photos into a clear record of what changed and when.
+
+### Set fixed vantage points
+Pick one spot per room and shoot from it every visit. Consistency makes progress obvious and reveals anything that goes wrong.
+
+### Before, during and after
+- Before. Existing conditions and anything you are not touching.
+- During. The same views each visit, plus close ups of works in progress.
+- After. Final condition per room, for handover.
+
+### Protecting the client relationship
+Neighbours and clients remember what was agreed. A dated photo set shows what was there before, which settles most disputes about pre-existing damage.
+
+### Questions
+- Do I need to photograph areas I am not working on? Yes. Existing conditions elsewhere prevent blame for damage you did not cause.
+- Should photos go into the client report? Only what is useful. Keep the full set in your own file.
+
+## Move-in and move-out inspection checklist with photos
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/move-in-move-out-inspection-checklist-with-photos.html
+
+Deposit disputes come down to one question: what did the property look like on the day. A dated, room-by-room photo record answers it.
+
+### Shoot in a fixed order
+Go room by room in the same order at move-in and move-out, so the two sets line up. Door, walls, floor, fittings, then any appliances.
+
+### What to capture in each room
+- An overview from the doorway.
+- Walls and skirting, including any marks.
+- Floors, including any stains or damage.
+- Fittings, fixtures and appliances.
+- Readings: meters, and anything relevant to the tenancy.
+
+### Turn it into a document
+Export a dated PDF per inspection, with a cover sheet, and keep it with the tenancy file. Two comparable documents settle a dispute in minutes.
+
+### Questions
+- How many photos is enough? Four to eight per room is typical: an overview plus the details that matter.
+- Should the tenant get a copy? Yes. Sharing the dated document up front removes most disagreement later.
+
+## How landlords document property condition
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-landlords-document-property-condition.html
+
+Good landlords document quietly and consistently. The record protects the tenant and the landlord equally.
+
+### Where photo records help
+- Routine and move-out inspections.
+- Maintenance and repair visits.
+- Issues a tenant reports, and the condition when first seen.
+- Common areas and safety checks.
+
+### How to keep it consistent
+- Same order of rooms every visit.
+- Dated, located photos with a short note.
+- One dated PDF per visit in the property file.
+- One consistent date format across the portfolio.
+
+### Privacy and fairness
+Document condition, not people. Share the dated document with the tenant so there is no surprise later. Everything staying on your device also protects tenant privacy.
+
+### Questions
+- Can I photograph a tenant's belongings? Document condition and fixtures. Avoid unnecessary photos of personal belongings.
+- Do I need the tenant present? It depends on the agreement and local rules. Dated photos make the record clear either way.
+
+## How to watermark photos with date, time and location
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-watermark-photos-with-date-time-and-location.html
+
+A watermark is the visible layer that turns a photo into a record. Getting the content and placement right makes it readable instead of cluttered.
+
+### What to include
+- Date, in one unambiguous format.
+- Time, with the time zone when it matters.
+- Coordinates, and a human readable place if you have one.
+- Altitude and heading where orientation is useful.
+- A short note for context.
+
+### Where to place it
+Pick a corner that does not cover the subject, and keep the same corner across a set. Make the font large enough to read on a phone.
+
+### Keeping a set consistent
+- One date format across every photo.
+- One font size and colour.
+- The same field order every time.
+
+### Note on editing apps
+Overlaying text after the fact produces an edited image. For anything that has to hold up, stamp at capture.
+
+### Questions
+- Should the watermark be transparent? A solid or lightly translucent panel keeps text readable against any background.
+- Can I turn the watermark off? Yes. Use a clean capture for listing photos and a stamped one for documentation.
+
+## Proof of delivery photos with timestamps
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/proof-of-delivery-photos-with-timestamps.html
+
+Proof of delivery lives or dies on three facts: the drop location, the time, and the condition of the item. All three can be captured in seconds.
+
+### The shot sequence
+- The item at the door or drop point, with the location visible.
+- Any damage or discrepancy, close up.
+- A wider shot that shows the address or landmark.
+- Any paperwork, signed and dated.
+
+### What makes it stick
+- A visible date, time and location on every photo.
+- No edits after capture.
+- A short note with the order or reference number.
+
+### Handling disputes
+A dated photo set answers the common complaint of never delivered or delivered damaged without an argument.
+
+### Questions
+- Do I need a signature too? Where required, yes. A dated photo of the signed paperwork covers it.
+- Does it work without signal? Yes. Everything is stored on the device and no upload is needed.
+
+## Choosing a timestamp camera app for iPhone
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/best-timestamp-camera-apps-for-iphone.html
+
+There is no single best app for everyone, but there is a small set of criteria that separates a tool you can rely on from a toy with an overlay.
+
+### Judge an app on these
+- Data set. Date, time, coordinates, altitude and heading, plus notes.
+- Verified time. A network time check, so a changed clock is visible.
+- Reports. A clean, dated PDF you can hand to a client or insurer.
+- Privacy. Does it upload your photos, or process on device.
+- Price model. One-time purchase versus a rolling subscription.
+- Field use. Battery, offline behaviour and speed at capture.
+
+### Where StampCam fits
+StampCam is built around those criteria: a full data set burned into the image, a network time check, on-device processing with no account, branded PDF reports, and a one-time price of $19.99 with no subscription.
+
+### How to compare fairly
+Install two or three apps and take the same photo with each. Compare the stamp, the report and the privacy policy, and check what happens to your data and your wallet after the first year.
+
+### Questions
+- Is a free timestamp app good enough? Sometimes for casual use. For work and documentation, the paid models usually trade adverts and uploads for a fee, so choose deliberately.
+- What is the single most important feature? A verifiable timestamp. Everything else is secondary.
+
+## Free vs paid timestamp camera apps
+URL: https://allan-ngugi-nganga.github.io/StampCam-Website/guides/free-vs-paid-timestamp-camera-apps.html
+
+Free is not really free, and a subscription is not automatically better. What matters is what you give up in each model.
+
+### What free usually costs
+- Adverts, including in the capture flow.
+- Watermarks on your own photos, sometimes the app's brand.
+- Feature limits on report export.
+- Data collection to fund it.
+
+### What subscriptions usually buy
+- No adverts and more features.
+- A recurring cost, often $60 to $180 a year.
+- Access that ends when you stop paying.
+
+### What a one-time purchase gives
+- Every feature, permanently, for a single price.
+- No recurring charge and nothing to cancel.
+- Usually a clearer privacy story, since there is no need to fund servers.
+
+### Choosing for documentation
+If the app is for work, the cost of a subscription over a couple of years usually exceeds a one-time purchase, and the privacy question is sharper. StampCam is a one-time $19.99 with everything unlocked and nothing uploaded.
+
+### Questions
+- Are there genuinely free timestamp cameras? Yes, but they tend to trade adverts, uploads or feature limits for the free price.
+- Why do some apps need a subscription? Often to fund servers. An app that processes on device has less reason to charge monthly.
+

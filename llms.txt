@@ -5,6 +5,8 @@
 > custom notes, then exports branded PDF reports. It is a one-time purchase of
 > $19.99 with no subscription, and every photo, report and location stays
 > on-device with no servers, accounts or tracking.
+>
+> Full text of the whole site and guide library is in [llms-full.txt](https://allan-ngugi-nganga.github.io/StampCam-Website/llms-full.txt).
 
 ## Key facts
 - Product: StampCam, a GPS timestamp camera app for iPhone.
@@ -27,7 +29,7 @@
 
 ## Pages
 - [Home](https://allan-ngugi-nganga.github.io/StampCam-Website/): product overview, features, pricing, FAQ.
-- [Guides](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/): how-to articles on timestamped photo documentation.
+- [Guides](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/): the full guide library (list below).
 - [For contractors](https://allan-ngugi-nganga.github.io/StampCam-Website/for/contractors.html)
 - [For insurance adjusters](https://allan-ngugi-nganga.github.io/StampCam-Website/for/insurance.html)
 - [For real estate](https://allan-ngugi-nganga.github.io/StampCam-Website/for/real-estate.html)
@@ -36,6 +38,28 @@
 - [Support](https://allan-ngugi-nganga.github.io/StampCam-Website/support.html)
 - [Privacy Policy](https://allan-ngugi-nganga.github.io/StampCam-Website/privacy.html)
 - [Terms of Use](https://allan-ngugi-nganga.github.io/StampCam-Website/terms.html)
+
+## Guides
+- [Timestamp a photo for an insurance claim](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-timestamp-photo-insurance-claim.html): What adjusters look for and how to make a phone photo hold up when you file.
+- [Prove when and where a photo was taken](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-prove-when-and-where-photo-was-taken.html): Why EXIF alone is not enough and what a burned-in, time-verified stamp adds.
+- [Construction site photo documentation](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/construction-site-photo-documentation.html): A repeatable system for progress, defects and handover reports.
+- [Timestamp camera settings for real estate](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/timestamp-camera-settings-real-estate.html): Condition reports, move-in and move-out records, and listing-safe defaults.
+- [How to add a date and time stamp to photos on iPhone](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-add-a-date-and-time-stamp-to-photos-on-iphone.html): The iPhone camera does not print a date on photos by default. Here is how to get a visible, permanent date and time stamp.
+- [How to add GPS location to a photo on iPhone](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-add-gps-location-to-a-photo-on-iphone.html): Turn on location for the camera, check that it is recorded, and get a visible coordinate stamp on the image.
+- [Why your iPhone photos lose location data](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/why-your-iphone-photos-lose-location-data.html): Location quietly disappears from photos when they pass through messaging apps, exports and edits. Here is why, and how to keep it.
+- [How to check a photo's location and timestamp on iPhone](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-check-a-photos-location-and-timestamp-on-iphone.html): Find the date, time and place of any photo in the Photos app, and understand the limits of what you find.
+- [What makes a photo usable as evidence](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/what-makes-a-photo-usable-as-evidence.html): Time, place, authenticity, clarity and continuity. The five things that decide whether a photo helps or hurts.
+- [Timestamped photos for legal documentation](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/timestamped-photos-for-legal-documentation.html): How to build a consistent, dated photo record for legal matters, disputes and compliance.
+- [How to photograph damage for an insurance claim](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-photograph-damage-for-an-insurance-claim.html): A shot list and routine that gives an adjuster exactly what they ask for.
+- [Documenting a car accident with timestamped photos](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/documenting-a-car-accident-with-timestamped-photos.html): A calm, ordered sequence that captures what matters at the scene and afterwards.
+- [How to create a daily site report with photos](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-create-a-daily-site-report-with-photos.html): A repeatable daily routine that produces a dated, professional report with no office time.
+- [Progress photo documentation for renovations](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/progress-photo-documentation-for-renovations.html): Fixed vantage points and a before, during and after set keep a renovation claim and client in order.
+- [Move-in and move-out inspection checklist with photos](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/move-in-move-out-inspection-checklist-with-photos.html): Capture a property's condition room by room so deposits are easy to settle.
+- [How landlords document property condition](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-landlords-document-property-condition.html): Routine inspections, maintenance records and clear communication, all dated and photo backed.
+- [How to watermark photos with date, time and location](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-watermark-photos-with-date-time-and-location.html): What a good watermark contains, where to place it, and how to keep a set consistent.
+- [Proof of delivery photos with timestamps](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/proof-of-delivery-photos-with-timestamps.html): Capture a delivery that proves where it went, when, and in what condition.
+- [Choosing a timestamp camera app for iPhone](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/best-timestamp-camera-apps-for-iphone.html): The criteria that separate a professional timestamp camera from a novelty camera, and how to judge any app against them.
+- [Free vs paid timestamp camera apps](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/free-vs-paid-timestamp-camera-apps.html): The real trade-offs behind free, subscription and one-time-purchase timestamp cameras.
 
 ## Contact
 - Email: support@stampcam.app

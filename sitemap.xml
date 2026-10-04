@@ -22,13 +22,37 @@
     <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/privacy.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/terms.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/contractors.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/insurance.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/real-estate.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/property-managers.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/index.html</loc>
@@ -61,25 +85,97 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/contractors.html</loc>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-add-a-date-and-time-stamp-to-photos-on-iphone.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/insurance.html</loc>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-add-gps-location-to-a-photo-on-iphone.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/real-estate.html</loc>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/why-your-iphone-photos-lose-location-data.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/for/property-managers.html</loc>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-check-a-photos-location-and-timestamp-on-iphone.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/what-makes-a-photo-usable-as-evidence.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/timestamped-photos-for-legal-documentation.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-photograph-damage-for-an-insurance-claim.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/documenting-a-car-accident-with-timestamped-photos.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-create-a-daily-site-report-with-photos.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/progress-photo-documentation-for-renovations.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/move-in-move-out-inspection-checklist-with-photos.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-landlords-document-property-condition.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/how-to-watermark-photos-with-date-time-and-location.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/proof-of-delivery-photos-with-timestamps.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/best-timestamp-camera-apps-for-iphone.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allan-ngugi-nganga.github.io/StampCam-Website/guides/free-vs-paid-timestamp-camera-apps.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

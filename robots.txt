@@ -22,3 +22,8 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://allan-ngugi-nganga.github.io/StampCam-Website/sitemap.xml
+
+# Machine-readable summary for AI agents and assistants:
+#   /llms.txt        index and key facts
+#   /llms-full.txt   full text of the site and guide library
+# Content feed: /feed.xml
