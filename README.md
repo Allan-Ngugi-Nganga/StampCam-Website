@@ -1,19 +1,22 @@
 # StampCam Website
 
-Marketing site for **StampCam**, a GPS timestamp camera for iOS.
+The marketing site for **StampCam**, a GPS timestamp camera for iPhone.
 
-Tagline: **Pay once. Own forever. No subscriptions.**
-
-Static site, no build step, deployed with GitHub Pages.
+Pay once, own forever. No subscriptions.
 
 ## Overview
 
 StampCam burns verified date, time, GPS coordinates, altitude and heading onto
 every photo, then exports branded PDF reports for legal, insurance and client
-documentation. This repository holds the public marketing site only: plain
-HTML, CSS and JavaScript that renders exactly as served.
+documentation. This repository holds the public site only: static HTML, CSS and
+JavaScript that renders exactly as served.
 
-## Structure
+## Links
+
+- Live site: https://allan-ngugi-nganga.github.io/StampCam-Website/
+- Support: support@stampcam.app
+
+## Contents
 
 ```
 index.html            Landing page (hero, features, modes, reports, privacy, pricing, FAQ)
@@ -22,22 +25,13 @@ support.html          Support and troubleshooting (App Store required)
 marketing.html        Press and partner overview (App Store marketing URL)
 terms.html            Terms of use and copyright
 404.html              Not found page
-guides/               Guides hub plus how-to articles (HowTo / FAQ schema)
-for/                  Industry landing pages (contractors, insurance, real estate, property managers)
-robots.txt            Crawler rules (search + AI crawlers allowed)
+guides/               Guides hub plus how-to articles
+for/                  Industry pages: contractors, insurance, real estate, property managers
+assets/               Stylesheet, script, app icon set, favicons, social preview
+robots.txt            Crawler rules (search and AI crawlers allowed)
 sitemap.xml           XML sitemap
 llms.txt              Machine summary for AI agents and assistants
 site.webmanifest      Web app manifest
-.nojekyll             Tell GitHub Pages to skip Jekyll
-assets/
-  styles.css          Theme, layout, motion
-  app.js              Nav, scroll reveal, camera mode tabs, App Store links
-  icon-1024.png       App icon (full size)
-  icon-512.png        App icon
-  icon-192.png        App icon
-  apple-touch-icon.png
-  favicon.ico, favicon-32.png, favicon-48.png
-  og-image.png/.jpg   Social preview (1200x630)
 ```
 
 ## Design
@@ -45,48 +39,33 @@ assets/
 Light, editorial, Apple product-page direction. Hierarchy comes from type,
 spacing and hairlines: no gradients, no glass, no decorative shapes, one
 restrained accent. Type is the system font stack, so iPhones render in SF Pro.
-Tokens live in the `:root` block of `assets/styles.css`.
+Colour and spacing tokens live in the `:root` block of `assets/styles.css`.
 
-## Run locally
+## Deploying
 
-Open `index.html` directly, or serve the folder:
+The site publishes with GitHub Pages from `main`, folder `/ (root)`. The
+`.nojekyll` file keeps Pages from running the folder through Jekyll.
 
-```bash
-python -m http.server 8000
-# then visit http://localhost:8000
-```
+1. Push to `main`.
+2. Settings, then Pages. Source: Deploy from a branch, `main`, `/ (root)`.
+3. Save.
 
-## Before launch: replace these placeholders
+## Configuration
 
-Search and replace across the repo:
+Values to set for production:
 
 1. **App Store URL.** In `assets/app.js`, set `STORE_URL` to the live listing,
    for example `https://apps.apple.com/app/id1234567890`. Every element marked
    `data-store` updates automatically.
-2. **App Store ID.** In `index.html`, update
-   `<meta name="apple-itunes-app" content="app-id=0000000000">`.
+2. **App Store ID.** In `index.html`, set
+   `<meta name="apple-itunes-app" content="app-id=...">`.
 3. **Canonical domain.** If a custom domain is added, replace
    `https://allan-ngugi-nganga.github.io/StampCam-Website/` in every HTML file,
-   in `sitemap.xml`, in `llms.txt` and in `robots.txt`.
-4. **Support email.** Confirm `support@stampcam.app` is the address you want
-   used in the footer, the legal pages and the JSON-LD.
-5. **Analytics (optional).** In `assets/app.js`, set `ANALYTICS_SRC` and
-   `ANALYTICS_ATTRS`. Recommended: Cloudflare Web Analytics (cookieless, no
-   consent banner) or Plausible. Leave empty to ship no analytics at all.
+   `sitemap.xml`, `llms.txt` and `robots.txt`.
+4. **Analytics (optional).** In `assets/app.js`, set `ANALYTICS_SRC` and
+   `ANALYTICS_ATTRS`. Cloudflare Web Analytics (cookieless) or Plausible are
+   both suitable. Leave empty to ship no analytics.
 
-## Deploy (GitHub Pages)
+## Contact
 
-1. Push this repository to GitHub.
-2. Settings, then Pages.
-3. Source: Deploy from a branch, Branch: `main`, Folder: `/ (root)`.
-4. Save. The site publishes at `https://<user>.github.io/<repo>/`.
-
-`.nojekyll` keeps GitHub Pages from running the folder through Jekyll.
-
-## SEO notes
-
-The site ships with per-page titles and descriptions, canonical URLs, Open
-Graph and Twitter cards, and JSON-LD structured data (`Organization`,
-`WebSite`, `MobileApplication`, `BreadcrumbList` and `FAQPage`). It also ships
-`robots.txt`, `sitemap.xml` and `llms.txt` for search engines and AI agents.
-See the deploy and SEO checklist for the manual steps (Search Console, Bing).
+support@stampcam.app
