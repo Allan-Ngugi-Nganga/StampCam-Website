@@ -62,4 +62,4 @@
 - [Free vs paid timestamp camera apps](https://allan-ngugi-nganga.github.io/StampCam-Website/guides/free-vs-paid-timestamp-camera-apps.html): The real trade-offs behind free, subscription and one-time-purchase timestamp cameras.
 
 ## Contact
-- Email: support@stampcam.app
+- Email: maverick.develops@gmail.com

@@ -3,24 +3,23 @@
   "use strict";
 
   // ---------------------------------------------------------------
-  // App Store URL. Set this to the live listing, for example
-  //   "https://apps.apple.com/app/id1234567890"
-  // Every element with [data-store] is updated automatically.
+  // App Store URL. Every element with [data-store] is updated automatically.
   // ---------------------------------------------------------------
-  var STORE_URL = "";
+  var STORE_URL = "https://apps.apple.com/app/id6818682653";
 
   // ---------------------------------------------------------------
-  // Privacy-first analytics. Leave empty to disable.
-  // Recommended: Cloudflare Web Analytics (cookieless, no consent banner)
-  //   ANALYTICS_SRC = "https://static.cloudflareinsights.com/beacon.min.js"
-  //   ANALYTICS_ATTRS = { "data-cf-beacon": '{"token":"YOUR_TOKEN"}' }
-  // Or Plausible: ANALYTICS_SRC = "https://plausible.io/js/script.js"
-  //   ANALYTICS_ATTRS = { "data-domain": "stampcam.app" }
+  // Privacy-first analytics (cookieless). Cloudflare Web Analytics.
+  // Paste your beacon token below. Until the token is replaced the beacon
+  // is not injected, so nothing broken ships.
+  // Get one: Cloudflare dashboard > Web Analytics > add site > JS snippet.
+  // Alternative: Plausible (ANALYTICS_SRC = "https://plausible.io/js/script.js",
+  //   ANALYTICS_ATTRS = { "data-domain": "example.com" }).
   // ---------------------------------------------------------------
-  var ANALYTICS_SRC = "";
-  var ANALYTICS_ATTRS = {};
+  var ANALYTICS_SRC = "https://static.cloudflareinsights.com/beacon.min.js";
+  var ANALYTICS_ATTRS = { "data-cf-beacon": '{"token":"REPLACE_WITH_CLOUDFLARE_WEB_ANALYTICS_TOKEN"}' };
 
-  if (ANALYTICS_SRC) {
+  var analyticsReady = ANALYTICS_SRC && JSON.stringify(ANALYTICS_ATTRS).indexOf("REPLACE_WITH") === -1;
+  if (analyticsReady) {
     var s = document.createElement("script");
     s.defer = true;
     s.src = ANALYTICS_SRC;
